@@ -9,9 +9,9 @@
 
 If you find it useful, cite:
 
-Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, Westhof E, Szachniuk M, Miao Z. RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools.  
+Magnus M, Antczak M, Zok T, Wiedemann J, Lukasiak P, Cao Y, Bujnicki JM, Westhof E, Szachniuk M, Miao Z.  
+<i>RNA-Puzzles toolkit: a computational resource of RNA 3D structure benchmark datasets, structure manipulation, and evaluation tools.</i>  
 Nucleic Acids Research. 2019  
-10.1093/nar/gkz1108  
 <https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1108/5651330>
 
 This is a part of the rna-tools package (https://github.com/mmagnus/rna-tools)

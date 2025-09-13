@@ -54,6 +54,8 @@ if __name__ == '__main__':
             f = f.replace(" ", "\\ ")
         else:
             fcover = f.replace('.pdb', '.png')
+            fcover = f.replace('.cif', '.png')
+
         rainbow = ''
         if args.rainbow:
             rainbow = 'util.chainbow;'

@@ -53,8 +53,10 @@ if __name__ == '__main__':
             fcover = tf.name + '.png'
             f = f.replace(" ", "\\ ")
         else:
-            fcover = f.replace('.pdb', '.png')
-            fcover = f.replace('.cif', '.png')
+            fcover = os.path.splitext(f)[0] + '.png'
+        if fcover == f:  # never overwrite/remove the input structure
+            print('skip, cannot make a png name for', f)
+            continue
 
         rainbow = ''
         if args.rainbow:
